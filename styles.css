@@ -1,0 +1,22 @@
+.navbar {
+    background-color:rgb(223, 191, 151);
+    opacity: 6;
+}
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(Images/background.png)
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+
+  }
