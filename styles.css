@@ -6,7 +6,7 @@ body {
 }
 .navigacio {
     position: relative;
-    background-image: linear-gradient(to right, rgb(83, 82, 82) , rgb(31, 31, 31));;
+    background-image: linear-gradient(to right, rgb(83, 82, 82) , rgb(31, 31, 31));
     overflow: hidden;
     border-radius: 3%;
 }
@@ -70,6 +70,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     color: rgb(146, 145, 145);
     margin-left: 8.6%;
     margin-right:40%;
+    text-decoration: none;
     
 }
 
@@ -92,7 +93,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     text-align: center;
     display: inline-block;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     margin: 4px 2px;
     border-radius: 15%;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -209,10 +210,11 @@ h2{
 }
 
 #footer {
-  height: 15rem;
-  background-color: rgb(27, 22, 75);
+  height: 20em;
+  background-image: linear-gradient(to right, rgb(149, 50, 158) ,rgb(46, 2, 75));
   border-top: 1px solid rgb(77, 4, 58);
   color:white;
+  border: 3px solid rgb(72, 7, 85);
 }
 
 .cinema:hover {
@@ -235,7 +237,7 @@ h2{
   }
 }
 
-h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+.footer_kep{
+  margin-left: 45%;
+  padding-top:26px;
 }
